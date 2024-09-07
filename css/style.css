@@ -23,6 +23,9 @@ body {
     box-sizing: border-box;
 }
 
+
+
+
 header {
     margin-top: 60px;
     /* padding-left: 100px;
@@ -70,6 +73,16 @@ header {
 .header ul li a {
     text-decoration: none;
     color: #191A23;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+
+.nav-mobile i {
+    font-size: 50px;
+
 }
 
 
@@ -356,3 +369,78 @@ header {
 .btn6 {
     color:#fff ;
 }
+
+@media (max-width:800px) {
+    .body {
+        height: 100vh;
+        overflow: hidden;
+    }
+    /* .header ul {
+        display: none;
+    } */
+
+    .btn{
+        width: 390px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .banner {
+        display: block;
+    }
+    
+    .banner-content h1 {
+        width: 100vh;
+    }
+
+    .banner img {
+        width: 430px;
+    }
+
+    .logo {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .services-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .services-cards {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header ul {
+          position: fixed;
+          top: 70px;
+          right: 0;
+          left: 0;
+          flex-direction: column;
+          text-align: center;
+          background-color: rgb(248, 247, 246);
+          border-radius: 50px;
+          gap: 0;
+          overflow: hidden;
+    }
+
+    .header ul li {
+        padding: 20px;
+    }
+
+    .nav-mobile {
+        display: block;
+        z-index: 1;
+    }
+
+}
+

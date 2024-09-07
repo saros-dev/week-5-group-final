@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <div class="header">
             <img src="./assets/image/Frame 9.svg" alt="">
-            <ul>
+            <ul class="nav-links" id="menuList">
                 <li><a href="">About us</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Use Cases</a></li>
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Blog</a></li>
-                <button>Request a quote</button>
+                <li><button>Request a quote</button></li>
             </ul>
+            <div class="nav-mobile">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+            </div>
 
         </div>
     </header>
@@ -26,7 +31,7 @@
         <div class="banner-content">
             <h1>Navigating the <br> digital landscape <br> for success</h1>
             <p>Our digital marketing agency helps businesses <br>grow and succeed online through a range of  services including SEO, PPC, social media marketing,<br> and content creation.</p>
-            <button>Book a consultation</button>
+            <button class="btn">Book a consultation</button>
         </div>
 
         <div class="banner-img">
@@ -125,6 +130,7 @@
 
 
 
+    <script src="https://kit.fontawesome.com/d26cf3728f.js" crossorigin="anonymous"></script>
 
     <script src="./js/app.js"></script>
 </body>
