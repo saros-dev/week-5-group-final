@@ -444,3 +444,406 @@ header {
 
 }
 
+
+*{
+    font-family: "Space Grotesk" , sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sec1 div{
+    display: flex;
+    margin-bottom: 80px;
+}
+.sec1 div h1{
+    background-color:#B9FF66 ;
+    width:155px ;
+    margin-right: 40px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+.sec1 div p{
+    width: 420px;
+    text-align: justify;
+}
+.comment-detail{
+    display: flex;
+    flex-direction: column;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    background-color: #191A23;
+    border-radius: 50px;
+    max-width: 90vw;
+
+}
+
+.swipe {
+    width: 300px;
+    gap: -30px;
+    z-index: 1;
+    margin-top: -90px;
+}
+
+.swipe2 {
+    justify-content: center;
+}
+
+
+.comment-box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.comment-box p{
+    color: #F3F3F3;
+}
+.comment-box h3{
+    color: #B9FF66;
+}
+.comment-text{
+    padding: 30px;
+    border: 1px solid;
+    border-radius:30px ;
+    border-color: #B9FF66;
+    margin-top: 20px;
+
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+input::placeholder{
+    padding-left: 30px;
+    padding-top: 18px;
+}
+.footer{
+    background-color: #191A23;
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    width: 90vw;
+    border-radius: 45px 45px 0px 0px ;
+    justify-self: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #F3F3F3;
+}
+
+.footer-detail{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-detail div a{
+    color: #F3F3F3;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.footer-contact-us {
+    margin-top: 50px;
+    display: flex;
+    
+}
+.footer-contact-us h2{
+    margin-bottom: 20px;
+}
+.footer-contact-us p {
+    margin-bottom:20px ;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.footer-bottom img{
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+.footer-bottom a{
+    color: #F3F3F3;
+    text-decoration: #F3F3F3;
+    margin-top: 15px;
+}
+.footer-email{
+    display: flex;
+}
+.footer-email input{
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 14px;
+    background: none;
+    border: 1px solid #F3F3F3;
+}
+.footer-email button{
+    width: 200px;
+    height: 50px;
+    border-radius: 14px;
+    background-color: #B9FF66;
+}
+.contact-us-box{
+    height: 573px;
+    background-color: rgb(216, 216, 216);
+    width: 90vw;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.sec-contact-us{
+    display: flex;
+    justify-content: center;
+}
+.radios{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.radios input{
+    margin-right: 10px;
+}
+.contact-us-inputs{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    justify-content: space-between;
+}
+.contact-us-inputs input{
+    height: 50px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border-radius: 14px;
+    border:#191A23 1px solid;
+}
+.contact-us-inputs div button{
+    width: 330px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    background-color: #191A23;
+    color: #F3F3F3;
+}
+.swiper-container{
+    height: 500px;
+    .swiper-slide{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }}
+@media screen and (max-width:480px) {
+    .sec1 div{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .sec1 div h1{
+        width:155px ;
+       margin: 0px;
+       margin-bottom: 30px;
+        text-align: center;
+
+    }
+    .sec1 div p{
+        width: 300px;
+        text-align: center;
+    }
+    .flex-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    /* .comment-detail{
+        flex-direction: column;
+
+    }
+    .comments{
+        display: flex;
+
+        width: 90vw;
+        flex-direction:column;
+        background-color: #191A23;
+        border-radius: 50px;
+       
+    }
+    .comment-box{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    } */
+    .comment-box p{
+        color: #F3F3F3;
+        text-align: center;
+    }
+    .comment-box h3{
+        color: #B9FF66;
+    }
+    .comment-text{
+        padding: 30px;
+        border: 1px solid;
+        border-radius:30px ;
+        border-color: #B9FF66;
+        margin-top: 20px;
+    
+    }
+    input::placeholder{
+        padding-left: 30px;
+        padding-top: 18px;
+    }
+    .footer{
+        background-color: #191A23;
+        display: flex;
+        flex-direction: column;
+        padding-top: 55px;
+        width: 100vw;
+        border-radius: 0px 0px 0px 0px ;
+        justify-self: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: #F3F3F3;
+        text-align: center;
+    }
+    
+    .footer-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .footer-detail div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .footer-detail div a{
+        color: #F3F3F3;
+        padding-top: 10px;
+        margin-right: 0px;
+    }
+    .footer-contact-us {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer-contact-us h2{
+        margin-bottom: 20px;
+    }
+    .footer-contact-us p {
+        margin-bottom:20px ;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+    .footer-detail div img{
+        width: 150px;
+        align-self: center;
+        margin-top: 10px;
+    }
+    .footer-bottom img{
+        padding-top: 0px;
+        margin-top: 30px;
+        width: 300px;
+        
+    
+    }
+    .footer-bottom a{
+        color: #F3F3F3;
+        text-decoration: #F3F3F3;
+        margin-top: 15px;
+    }
+    .footer-email{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-email input{
+        width: 200px;
+        height: 50px;
+        margin-right: 0px;
+        border-radius: 14px;
+        background: none;
+        border: 1px solid #F3F3F3;
+    }
+    .footer-email button{
+        width: 200px;
+        height: 50px;
+        border-radius: 14px;
+        background-color: #B9FF66;
+        margin-top: 10px;
+        
+    }
+    .contact-us-box{
+        height: 573px;
+        background-color: rgb(216, 216, 216);
+        width: 90vw;
+        border-radius: 45px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        align-items: center;
+    }
+    .sec-contact-us{
+        display: flex;
+        justify-content: center;
+    }
+    .radios{
+        margin-left: 00px;
+        margin-top: 50px;
+    }
+    .radios input{
+        margin-right: 10px;
+    }
+    .contact-us-inputs{
+        margin-left: 00px;
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        justify-content: space-between;
+    }
+    .contact-us-inputs input{
+        height: 50px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+        margin-left: 0px;
+        border-radius: 14px;
+        border:#191A23 1px solid;
+    }
+    .contact-us-inputs div button{
+        width: 330px;
+        height: 50px;
+        border-radius: 14px;
+        border: none;
+        background-color: #191A23;
+        color: #F3F3F3;
+    }
+    .swiper-container{
+        height: 500px;
+        .swiper-slide{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }}
+
+        .swipe {
+            width: 100px;
+            gap: -30px;
+            z-index: 1;
+            margin-top: -90px;
+        }
+    
+}
+
