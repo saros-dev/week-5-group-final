@@ -1,0 +1,279 @@
+
+.proposal {
+ 
+  display: flex;
+  justify-content: space-between;
+  border-radius: 45px;
+  width: 1240px;
+  height: 230px;
+  padding: 0px 60px 0px 60px;
+  text-align:justify;
+    
+    gap: 3rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color:  #F3F3F3;
+
+    button {
+      width: 200px;
+      height: 50px;
+        /* max-width: 400px; */
+        /* width: auto; */
+        background-color: #191A23;
+        color: white;
+        border-radius: 14px;
+      }
+      
+    }
+
+  img {
+    /* margin-top: -50px;
+    margin-bottom: -50px; */
+      /* display: none; */
+      padding: px 235px 100px 846px;
+    
+}
+
+
+
+
+
+
+
+
+
+.case-studies {
+  display: flex;
+  flex-direction:column;
+  gap: 4rem;
+  background-color:#191A23;
+  color:white;
+  width: 1000px;
+  height: 300px;
+  padding: 0px, 100px, 0px, 100px;
+  border-radius: 45px;
+}
+
+  
+  .case-studies__cards {
+    display: flex;
+    align-items: center;
+  
+    border-radius: 4rem;
+  }
+
+  .case-studies__card1 {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+
+
+  .case-studies__card2 {
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+
+
+
+
+
+  .case-studies__card3 {
+    /* padding: 4rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+
+
+
+    p {
+      color: white;
+      display: flex;
+      align-items:center;
+      gap: 2rem;
+    }
+
+
+.colored-text4 {
+  background-color: #B9FF66;
+  width: 150px;
+  height: 47px;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+}
+
+
+
+
+
+
+
+  .accordion__cards {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    
+  }
+
+  .acordion__card {
+    border-radius: 3rem;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }  
+    
+
+
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      div {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+    }
+
+    .accordion-description {
+      display: none;
+      border-top: 1px solid black;
+      padding-top: 3rem;
+    }
+
+
+.colored-header {
+  background-color: #B9FF66;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.accordion__card1 {
+  background-color: #B9FF66;
+  border-color: black;
+  border-radius: 45px;
+  width: 1000px;
+  height: 200px;
+  color: black;
+}
+
+
+
+.accordion__card {
+  background-color: #F3F3F3;
+  width: 1000px;
+  height: 150px;
+  border-radius: 45px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+.team {
+  display: flex;
+  flex-direction:column;
+}
+
+.colored-text {
+  background-color: #B9FF66;
+  width: 90px;
+  height: 47px;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.cards__team {
+  margin-block: 8rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.card__team {
+  display: flex;
+  flex-direction: column;
+  max-width: 298px;
+  border: 1px black solid;
+  border-bottom: 10px solid black;
+  border-radius: 4rem;
+  padding: 4rem;
+  margin-inline: auto;
+
+  hr {
+    width: 100%;
+    border: 0.5px solid black;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  p {
+    line-height: 1.2;
+    color: black;
+  }
+
+  .card__team-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .card__team-left {
+      height: 100%;
+    }
+
+      h4 {
+        font-weight: 500;
+      }
+
+      img {
+        width: 30px;
+        align-self: self-end;
+        margin-bottom: 4rem;
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+}
+
+
+.team__button {
+  background-color: black;
+  /* padding-inline: 8rem; */
+  border-radius: 14px;
+  width: 269px;
+  height: 70px;
+  /* padding-block: 2rem; */
+  color: white;
+  font-size: medium;
+  /* width: max-content; */
+  align-self: flex-end;
+}

@@ -1,240 +1,327 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positivus Landing Page Design</title>
+    <link rel="stylesheet" href="app.css" />
+
 </head>
-<body>
-    <header>
-        <div class="header">
-            <img src="./assets/image/Frame 9.svg" alt="">
-            <ul class="nav-links" id="menuList">
-                <li><a href="">About us</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Use Cases</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Blog</a></li>
-                <li><button>Request a quote</button></li>
-            </ul>
-            <div class="nav-mobile">
-                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
 
-            </div>
-
-        </div>
-    </header>
-    <div class="banner">
-        <div class="banner-content">
-            <h1>Navigating the <br> digital landscape <br> for success</h1>
-            <p>Our digital marketing agency helps businesses <br>grow and succeed online through a range of  services including SEO, PPC, social media marketing,<br> and content creation.</p>
-            <button class="btn">Book a consultation</button>
-        </div>
-
-        <div class="banner-img">
-            <img src="./assets/image/Illustration.svg" alt="">
-        </div>
-    </div>
-
-    <div class="logo">
-        <img class="logo1" src="./assets/image/Company logo.svg" alt="">
-        <img class="logo2" src="./assets/image/Company logo (1).svg" alt="">
-        <img  class="logo3" src="./assets/image/Company logo (2).svg" alt="">
-        <img class="logo4" src="./assets/image/Company logo (3).svg" alt="">
-        <img class="logo5" src="./assets/image/Company logo (4).svg" alt="">
-        <img class="logo6" src="./assets/image/Company logo (5).svg" alt="">
-    </div>
-
-    <div class="services">
-        <div class="services-title">
-        <h2>Services</h2>
-        <p>At our digital marketing agency, we offer a range of services to <br> help businesses grow and succeed online. These services include:</p>
-    </div>
-        <section class="services-cards">
-            <div class="card">
-            <div class="services-card services-card1">
-                <h4>Search engine <br> optimization</h4>
-                <div class="btn">
-                <button class="learn-more"><img class="icon" src="./assets/image/Icon.svg" alt="">Learn more</button>
-                </div>
-                </div>
-                <div class="image-div">
-                    <img class="image-cards" src="./assets/image/Illustration (1).svg" alt="">
-            
-            
-                 </div>
-            </div>
-            <div class="card">
-            <div class="services-card  services-card2">
-                <h4>Pay-per-click <br> advertising</h4>
-                <button><img class="icon" src="./assets/image/Icon.svg" alt="">Learn more</button>
-            </div>
-                <div class="image-div">
-                    <img class="image-cards" src="./assets/image/Illustration (2).svg" alt="">
-            </div>
-            
-            </div>
-            <div class="card">
-            <div class="services-card  services-card3">
-                <h4>Social Media <br> Marketing</h4>
-                <button><img class="icon" src="./assets/image/Icon (1).svg" alt=""><span class="btn3">Learn more</span></button>
-                </div>
-                <div class="image-div">
-                    <img class="image-cards" src="./assets/image/Illustration (3).svg" alt="">
-                </div>
-            
-            </div>
-            <div class="card">
-            <div class="services-card   services-card4">
-                <h4>Email <br> Marketing</h4>
-                <button><img class="icon" src="./assets/image/Icon.svg" alt="">Learn more</button>
-            </div>
-                <div class="image-div">
-                    <img class="image-cards" src="./assets/image/tokyo-sending-messages-from-one-place-to-another 1.svg" alt="">
-
-                </div>
-            
-            </div>
-            <div class="card">
-            <div class="services-card   services-card5">
-                <h4>Content <br> Creation</h4>
-                <button><img class="icon" src="./assets/image/Icon.svg" alt="">Learn more</button>
-
-            </div>
-                <div class="image-div">
-                    <img class="image-cards" src="./assets/image/Illustration (4).svg" alt="">
-
-                </div>
-           
-            </div>
-            <div class="card">
-            <div class="services-card    services-card6">
-                <h4>Analytics and <br> Tracking</h4>
-                <button><img class="icon" src="./assets/image/Icon (1).svg" alt=""><span class="btn6">Learn more</span></button>
-
-            </div>
-                <div class="image-div">
-                    <img class="image-cards" src="./assets/image/Illustration (7).svg" alt="">
-
-                </div>
-            
-            </div>
-
-        </div>
-
+  <body>
+    <section class="proposal container bg-color-gray">
+      <div class="proposal__left">
+        <h3 class="font-3">Let’s make things happen</h3>
+        <p class="font-md">
+          Contact us today to learn more about how our digital <br> marketing
+          services can help your business grow and <br> succeed online.
+        </p>
+        <button class="button__standart button__standart--black font-2">
+          Get your free proposal
+        </button>
+      </div>
+      <div class="proposal__right">
+        <!-- <img src="./image/Illustration.png" alt=""> -->
+      </div>
     </section>
-
-
-
-
-    <section class="sec1">
-        <div>
-            <h1>
-                Testimonials  
-            </h1>
-            <p>Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
+    <section class="case-studies container">
+      <div class="section__header">
+        <div class="colored-text4">
+          <h2 class="font-4">Case Studies</h2>
         </div>
-        <div class="flex-center">
-        <div class="comments swiper-container">
-        
-            <div class="swiper-wrapper">
-        <!-- <div class="comment-box swiper-slide">
-            <p class="comment-text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
-            <div class="comment-detail">
-                <h3>John Smith</h3>  
-                <p>Marketing Director at XYZ Corp</p>
-            </div> -->
-        <!-- </div>
-        <div class="comment-box swiper-slide">
-            <p class="comment-text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
-            <div class="comment-detail">
-                <h3>John Smith</h3>  
-                <p>Marketing Director at XYZ Corp</p>
-            </div>
-        </div>
-        <div class="comment-box swiper-slide">
-            <p class="comment-text">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
-            <div class="comment-detail">
-                <h3>John Smith</h3>  
-                <p>Marketing Director at XYZ Corp</p>
-            </div> -->
-            <div class="swipe swiper-pagination swipe2"></div>
-        </div>
-    </div>
+        <p class="font-2">
+          Explore Real-Life Examples of Our Proven Digital Marketing Success
+          through Our Case Studies
+        </p>
+      </div>
+      <div class="case-studies__cards bg-color-black">
+        <div class="case-studies__card1">
+          <p class="font-1">
+            For a local restaurant, we <br>
+             implemented a targeted PPC <br>
+              campaign that resulted in a 50% <br>
+               increase in website traffic and a <br>
+                25% increase in sales.
+          </p>
 
-        
-        <div class="swipe swiper-button-next"></div>
-        <div class="swipe swiper-button-prev"></div>
-        
-         
-        
+          <p class="font-2">
+            <img src="./image/Icon.png" alt="" />
+            <span>Learn more</span>
+          </p>
         </div>
+        <div class="case-studies__card2">
+          <p class="font-1">
+            For a B2B software company, we <br>
+             developed an SEO strategy that <br>
+              resulted in a first page ranking <br>
+               for key keywords and a 200% <br>
+                increase in organic traffic.
+          </p>
+
+          <p class="font-2">
+            <img src="./image/Icon.png" alt="" />
+            <span>Learn more</span>
+          </p>
+        </div>
+        <div class="case-studies__card3">
+          <p class="font-1">
+            For a national retail chain, we <br>
+             created a social media <br>
+              marketing campaign that <br>
+              increased followers by 25% and <br>
+               generated a 20% increase in <br>
+                online sales.
+          </p>
+
+          <p class="font-2">
+            <img src="./image/Icon.png" alt="" />
+            <span>Learn more</span>
+          </p>
+        </div>
+      </div>
     </section>
-    <section class="sec-contact-us">
-    <div class="contact-us-box">
-    <div class="radios">
-     <input type="radio" id="radio1">
-     <label for="radio1">Say Hi</label>
-     <input type="radio" id="radio2">
-     <label for="radio2">Get a Quote</label>
-    </div>
-    <div class="contact-us-inputs" >
-        <p>Name</p>
-        <input type="text" placeholder="Name">
-        <p>Email*</p>
-        <input type="text" placeholder="Email">
-        <p>Message*</p>
-        <input type="text" placeholder="Message">
-        <div>
-        <button>Send Message</button>
-    </div>
-    </div>
-    </div>
-    </section>
-    <section class="flex-center">
-    <div class="footer">
-    <div class="footer-detail">
-        <div><h1>Positivus</h1></div>
-        <div><a href=""></a>
-        <a href="">About us</a>
-        <a href="">Services</a>
-        <a href="">Use Cases</a>
-        <a href="">Pricing</a>
-        <a href="">Blog</a>
-    </div>
-        <div>
-        <img src="IMG/Social icons.svg" alt="">
+    <section class="accordion container">
+      <div class="section__header">
+        <div class="colored-header">
+          <h2 class="font-4">Our Working Process</h2>
         </div>
-    </div>
-        <div class="footer-contact-us">
-            <div>
-            <h2>Contact us:</h2>
-            <p>Contact us:</p>
-            <p>Phone: 555-567-8901</p>
-            <p>Address: 1234 Main St</p>
-            <p>Moonstone City, Stardust State 12345</p>
+        <p class="font-2">
+          Step-by-Step Guide to Achieving Your Business Goals
+        </p>
+      </div>
+      <div class="accordion__cards">
+        <div class="accordion__card1">
+          <header class="accordion__card-header">
+            <div class="accordion__card-header-right">
+              <span class="font-4"> 01 </span>
+              <p class="font-1">Consultation</p>
+              <img src="./image/Plus icon.svg" alt="">
             </div>
-            <div class="footer-email">
-            <input type="text" placeholder="Email">
-            <button>Subscribe to news</button>
+            <div class="icon">
+              <i class="fa-solid fa-plus"></i>
             </div>
+          </header>
+          <div class="accordion__card-description">
+            <p>
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing <br>
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
         </div>
-        <hr>
-        <div class="footer-bottom">
-            <img src="IMG/© 2023 Positivus. All Rights Reserved..png" alt="">
-            <a href="">Privacy Policy</a>
+        <div class="accordion__card">
+          <header class="accordion__card-header">
+            <div class="accordion__card-header-right">
+              <span class="font-4"> 02 </span>
+              <img src="./image/Plus icon.svg" alt="">
+              <p class="font-1">Research and Strategy Development</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </header>
+          <div class="accordion__card-description">
+            <p>
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
         </div>
-
-    </div> 
-    </div>
+        <div class="accordion__card">
+          <header class="accordion__card-header">
+            <div class="accordion__card-header-right">
+              <span class="font-4"> 03 </span>
+              <img src="./image/Plus icon.svg" alt="">
+              <p class="font-1">Implementation</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </header>
+          <div class="accordion__card-description">
+            <p>
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
+        </div>
+        <div class="accordion__card">
+          <header class="accordion__card-header">
+            <div class="accordion__card-header-right">
+              <span class="font-4"> 04 </span>
+              <img src="./image/Plus icon.svg" alt="">
+              <p class="font-1">Monitoring and Optimization</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </header>
+          <div class="accordion__card-description">
+            <p>
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
+        </div>
+        <div class="accordion__card">
+          <header class="accordion__card-header">
+            <div class="accordion__card-header-right">
+              <span class="font-4"> 05 </span>
+              <img src="./image/Plus icon.svg" alt="">
+              <p class="font-1">Reporting and Communication</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </header>
+          <div class="accordion__card-description">
+            <p>
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
+        </div>
+        <div class="accordion__card">
+          <header class="accordion__card-header">
+            <div class="accordion__card-header-right">
+              <span class="font-4"> 06 </span>
+              <img src="./image/Plus icon.svg" alt="">
+              <p class="font-1">Continual Improvement</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </header>
+          <div class="accordion__card-description">
+            <p>
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="app..js"></script>
-    <script src="https://kit.fontawesome.com/d26cf3728f.js" crossorigin="anonymous"></script>
+    <section class="team container">
+      <div class="section__header">
+        <div class="colored-text">
+          <h2 class="font-4">Team</h2>
+        </div>
+        <p class="explain">
+          Meet the skilled and experienced team behind our successful digital
+          marketing strategies
+        </p>
+      </div>
+      <div class="cards__team">
+        <div class="card__team">
+          <div class="card__team-top">
+            <img src="./image/Picture.svg" alt="" />
+            <div class="card__team-top-left">
+              <img src="./image/Social icon.svg" alt="" />
+              <h4>John Smith</h4>
+              <p>CEO and Founder</p>
+            </div>
+          </div>
+          <hr />
+          <p>
+            10+ years of experience in digital marketing. Expertise in SEO, PPC,
+            and content strategy
+          </p>
+        </div>
+        <div class="card__team">
+          <div class="card__team-top">
+            <img src="./image/Picture (1).svg" alt="" />
+            <div class="card__team-top-left">
+              <img src="./image/Social icon.svg" alt="" />
+              <h4>Jane Doe</h4>
+              <p>Director of Operations</p>
+            </div>
+          </div>
+          <hr />
+          <p>
+            7+ years of experience in project management and team leadership.
+            Strong organizational and communication skills
+          </p>
+        </div>
+        <div class="card__team">
+          <div class="card__team-top">
+            <img src="./image/Picture (2).svg" alt="" />
+            <div class="card__team-top-left">
+              <img src="./image/Social icon.svg" alt="" />
+              <h4>Michael Brown</h4>
+              <p>Senior SEO Specialistr</p>
+            </div>
+          </div>
+          <hr />
+          <p>
+            5+ years of experience in SEO and content creation. Proficient in
+            keyword research and on-page optimization
+          </p>
+        </div>
+        <div class="card__team">
+          <div class="card__team-top">
+            <img src="./image/Picture (3).svg" alt="" />
+            <div class="card__team-top-left">
+              <img src="./image/Social icon.svg" alt="" />
+              <h4>Emily Johnson</h4>
+              <p>PPC Managerr</p>
+            </div>
+          </div>
+          <hr />
+          <p>
+            3+ years of experience in paid search advertising. Skilled in
+            campaign management and performance analysis
+          </p>
+        </div>
+        <div class="card__team">
+          <div class="card__team-top">
+            <img src="./image/Picture (4).svg" alt="" />
+            <div class="card__team-top-left">
+              <img src="./image/Social icon.svg" alt="" />
+              <h4>Brian Williams</h4>
+              <p>Social Media Specialist</p>
+            </div>
+          </div>
+          <hr />
+          <p>
+            4+ years of experience in social media marketing. Proficient in
+            creating and scheduling content, analyzing metrics, and building
+            engagement
+          </p>
+        </div>
+        <div class="card__team">
+          <div class="card__team-top">
+            <img src="./image/Picture (5).svg" alt="" />
+            <div class="card__team-top-left">
+              <img src="./image/Social icon.svg" alt="" />
+              <h4>Sarah Kim</h4>
+              <p>Content Creator</p>
+            </div>
+          </div>
 
-    <script src="./js/app.js"></script>
-</body>
+          <hr />
+
+          <p>
+            10+ years of experience in digital marketing. Expertise in SEO, PPC,
+            and content strategy
+          </p>
+        </div>
+      </div>
+      <button class="team__button">See all team</button>
+    </section>
+      </div>
+    <script src="app.js"></script>
+  </body>
 </html>
